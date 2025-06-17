@@ -27,7 +27,7 @@ const streamUrl = ref(''); // 这将是从后端获取的 .m3u8 URL
 const streamId = ref(''); // 用于存储流ID，以便停止流
 const loadingStream = ref(false); // 是否正在加载流
 const backendError = ref(''); // 后端返回的错误信息
-const backendBaseUrl = 'http://localhost:8080'; // Java 后端的基础 URL
+const backendBaseUrl = 'http://localhost:9198'; // Java 后端的基础 URL (更新为9198端口)
 
 // 从后端获取 HLS 流 URL
 const fetchStreamUrl = async () => {
