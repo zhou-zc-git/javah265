@@ -3,14 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "hls.js": "^1.5.1",
-    "vue": "^3.2.13"
+    "vue": "^3.3.0",
+    "hls.js": "^1.5.1"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "devDependencies": {
-    "@vue/cli-service": "~5.0.0"
-  }
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
 }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN"> <!-- 设置页面语言为中文 -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- 下一行是 Vue CLI 自动注入的图标链接占位符 -->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!-- 下一行是 Vue CLI 自动注入的标题占位符, 通常在 vue.config.js 或 package.json 中配置 -->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>抱歉，如果 JavaScript 未启用，<%= htmlWebpackPlugin.options.title %> 将无法正常工作。请启用 JavaScript 后继续。</strong>
+    </noscript>
+    <!-- Vue 应用将挂载到这个 div 元素上 -->
+    <div id="app"></div>
+    <!-- 构建好的 JS 文件将自动注入到这里 -->
+  </body>
+</html>
