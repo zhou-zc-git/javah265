@@ -11,7 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import jakarta.servlet.http.HttpServletRequest;
+// import jakarta.servlet.http.HttpServletRequest; // This line will be changed
+import javax.servlet.http.HttpServletRequest; // This is the new line
+
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
